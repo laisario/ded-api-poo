@@ -17,7 +17,6 @@ abstract class Race {
   }
 
   static createdRacesInstances(): number {
-    console.log('hiiii');
     throw new Error('Not implemented');
   }
 
