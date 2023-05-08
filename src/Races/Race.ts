@@ -3,7 +3,6 @@ abstract class Race {
   private _dexterity: number;
 
   constructor(_name: string, _dexterity: number) {
-    Race.createdRacesInstances();
     this._name = _name;
     this._dexterity = _dexterity;
   }
